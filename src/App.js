@@ -2,23 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  //Variables del contenido
+  const nombre= "Stephanie";
+  const profesion ="Ingeniera";
+  const ciudad = "Cartago";
+  const imagen = logo;
+  const mensaje = "Bienvenida a tu panel del programa"
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='contenedor'>
+      <img src={imagen} alt='Foto de perfil' className='imagen'/>
+      <h1>Hola, {nombre}</h1>
+      <h2>{profesion}</h2>
+      <p>Ubicación: {ciudad}</p>
+      <p>{mensaje}</p>
     </div>
+    
   );
 }
 

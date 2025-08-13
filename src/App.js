@@ -3,6 +3,11 @@ import './App.css';
 import CompFuncional from './componentes/CompFuncionales/CompFuncional';
 import EjemploProps from './componentes/EjemploProps/EjemploProps';
 import EjemploEstado from './componentes/EjemploEstado/EjemploEstado';
+import EjemploMap from './componentes/EjemploMap/EjemploMap';
+import ListaEventosInteractiva from './componentes/EjemploConKey/EjemploConKey';
+import RenderizadoCondicional from './componentes/EjemRenCondicional/RenderizadoCondicional';
+import FormSimple from './componentes/EjmplosFormularios/SoloUnCampo';
+import FormVariosCampos from './componentes/EjmplosFormularios/VariosCampos';
 
 function App() {
 
@@ -26,6 +31,16 @@ function App() {
     <CompFuncional/>
     <EjemploProps titulo='Introduccion a React' descripcion='El curso de React para comprender terminos ...' />
     <EjemploEstado/>
+    <br></br><br></br>
+    <EjemploMap></EjemploMap>
+    <br></br>
+    <ListaEventosInteractiva></ListaEventosInteractiva>
+    <br></br>
+    <RenderizadoCondicional></RenderizadoCondicional>
+    <br></br><br></br>
+    <FormSimple></FormSimple>
+    <br></br><br></br>
+    <FormVariosCampos></FormVariosCampos>
     </>
   );
 }

@@ -8,6 +8,9 @@ import ListaEventosInteractiva from './componentes/EjemploConKey/EjemploConKey';
 import RenderizadoCondicional from './componentes/EjemRenCondicional/RenderizadoCondicional';
 import FormSimple from './componentes/EjmplosFormularios/SoloUnCampo';
 import FormVariosCampos from './componentes/EjmplosFormularios/VariosCampos';
+import CicloVida from './componentes/CicloVida/CicloVida';
+import Cronometro from './componentes/Cronometro/Cronometro';
+import PostApi from './componentes/EjemploApi/EjemploApi';
 
 function App() {
 
@@ -41,6 +44,13 @@ function App() {
     <FormSimple></FormSimple>
     <br></br><br></br>
     <FormVariosCampos></FormVariosCampos>
+    <br></br><br></br>
+    <br></br><br></br>
+    <CicloVida></CicloVida>
+    <Cronometro></Cronometro>
+    <br></br><br></br>
+    <br></br><br></br>
+    <PostApi></PostApi>
     </>
   );
 }
